@@ -1,0 +1,17 @@
+GET http://localhost:3000/dev?first=ayomide HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3000/ayomide/echo HTTP/1.1
+
+
+###
+POST http://localhost:3000/dev HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "age": 17,
+    "favoriteFoods": {"Salt", "Rice"}
+}
+
